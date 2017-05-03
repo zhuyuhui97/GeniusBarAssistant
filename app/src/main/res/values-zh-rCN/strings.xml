@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智慧体验店维修端</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preview">概览</string>
+    <string name="product">产品</string>
+    <string name="geniusbar">售后</string>
+    <string name="about">关于</string>
+    <string name="settings">设置</string>
+    <string name="add_to_cart">加入购物车</string>
+    <string name="action_settings">设置</string>
+    <string name="currency_symbol">￥</string>
+    <string name="greeting_morning">早上好！</string>
+    <string name="greeting_noon">中午好！</string>
+    <string name="greeting_afternoon">下午好！</string>
+    <string name="greeting_night">晚上好！</string>
+    <string name="cart">购物车</string>
+    <string name="gb_product_name">产品名称</string>
+    <string name="gb_product_sn">产品序列号</string>
+    <string name="gb_product_imei">产品IMEI</string>
+    <string name="gb_product_description">故障描述</string>
+    <string name="gb_name">客户姓名</string>
+    <string name="gb_contact">联系方式</string>
+    <string name="gb_check_info">请完善全部信息</string>
+    <string name="gb_fix_in_queue">排队中</string>
+    <string name="gb_fix_done">完成</string>
+    <string name="gb_fix_none">暂无信息</string>
+    <string name="gb_fix_none_description">现在您可以新添加新的维修记录。</string>
+    <string name="send">发送</string>
+    <string name="sending">发送中……</string>
+    <string name="send_succeed">发送成功</string>
+    <string name="send_fail">发送失败</string>
+    <string name="send_fail_gen_json">在生成Json时出现错误</string>
+    <string name="retry">重试</string>
+    <string name="cancel">取消</string>
+    <string name="okay">确定</string>
+    <string name="more">更多</string>
+    <string name="hour">小时</string>
+    <string name="minute">分钟</string>
+    <string name="execute_confirm">确定要这样做吗？</string>
+    <string name="get_data_fail">获取数据失败</string>
+    <string name="scan_text">将条码放入框中以扫码</string>
+    <string name="print_bill">打印订单</string>
+    <string name="scan_code">扫描条码</string>
+    <string name="confirm_result">确认结果</string>
+    <string name="invaild_barcode">无效产品编码</string>
+    <string name="loading">正在载入……</string>
+    <string name="function">功能</string>
+
+    <string name="action_gb_queue">维修队列</string>
+    <string name="added_to_cart">已加入购物车</string>
+    <string name="start">开始</string>
+    <string name="gb_should_finish_current">您必须先完成当前的维修单。</string>
+    <string name="title_activity_genius_bar_item_detail">维修单详情</string>
+
+    <string name="pref_server_domain">服务器域名</string>
+    <string name="pref_current_staff_id">当前工号</string>
+    <string name="pref_default_server_domain">qrtest.acg.wtf</string>
+    <string name="pref_default_staff_id">qrtest.acg.wtf</string>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:clickable="true"
+    tools:layout_width="match_parent"
+    style="@style/HomeCard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fix_current_main_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/material_orange_500"
+            android:id="@+id/fix_current_bg_layout">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/fix_current_time_hr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="24dp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                    android:textSize="@dimen/card_font_extra"
+                    android:text="0"
+                    android:textColor="#ffffff" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/fix_current_time_hide">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                        android:textSize="30dp"
+                        android:text="@string/hour"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/fix_current_time_min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="6dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="24dp"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                        android:textSize="@dimen/card_font_extra"
+                        android:text="0"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                        android:textSize="30dp"
+                        android:text="@string/minute"
+                        android:textColor="#ffffff" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fix_current_main_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="6dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="6dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="20sp"
+                android:text="@string/loading"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_gravity="top|center_vertical"
+                android:src="@drawable/ic_info_black_24dp"
+                android:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/fix_current_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.1"
+                android:layout_margin="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/card_font_medium"
+                tools:text="body"
+                android:text="ing"
+                android:singleLine="false"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fix_current_staff_id_hide"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <TextView
+                tools:text="body"
+                android:id="@+id/fix_current_staff_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.1"
+                android:layout_margin="10dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat"
+                android:textSize="@dimen/card_font_medium"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:id="@+id/fix_current_button_hide">
+
+            <Button
+                style="?attr/borderlessButtonStyle"
+                android:id="@+id/fix_current_button_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="0px"
+                android:textColor="?attr/colorAccent"
+                android:text="@string/gb_fix_done" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

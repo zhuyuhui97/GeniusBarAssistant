@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="json_src">http://192.168.1.152:8080</string>
+    <string name="json_src_products_gallery">/gallery_list</string>
+    <string name="json_src_cart_get_view_item">/cart_item/</string>
+    <string name="json_src_post_new_fix">/post_fix</string>
+    <string name="json_src_gb_queue">/geniusbar_queue</string>
+    <string name="json_src_gb_queue_del_fix">/geniusbar_queue_del/</string>
+    <string name="json_src_gb_queue_current">/geniusbar_queue_current</string>
+    <string name="json_src_gb_queue_waiting">/geniusbar_queue_waiting</string>
+    <string name="json_src_gb_queue_start">/geniusbar_fix_start</string>
+    <string name="json_src_gb_queue_finish">/geniusbar_fix_finish</string>
+    <string name="json_src_gb_queue_done">/geniusbar_queue_done</string>
+    <string name="json_src_gb_my_fixing">/geniusbar_my_fixing</string>
+</resources>
